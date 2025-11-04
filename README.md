@@ -1,16 +1,40 @@
-# React + Vite
+📝 Todo App — Manage Your Tasks Efficiently
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Todo App demonstrates modern state management using Redux Toolkit — a powerful and efficient way to handle global state in React applications.
+It allows users to add, edit, delete, and toggle tasks effortlessly, providing a clean UI and smooth user experience.
 
-Currently, two official plugins are available:
+🧠 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ React JS – Frontend library for building dynamic UIs
 
-## React Compiler
+🧰 Redux Toolkit – Simplified state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎨 Tailwind CSS / CSS / SASS – For responsive and modern styling
 
-## Expanding the ESLint configuration
+💾 Local Storage – For task persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+✨ Features
+
+➕ Add new tasks instantly
+
+✅ Mark tasks as completed / uncompleted
+
+🗑️ Delete tasks easily
+
+✏️ Edit existing tasks
+
+💾 Data persists using Local Storage
+
+📱 Fully responsive design
+
+
+🧩 Redux Toolkit Highlights
+
+Centralized global state for task management
+
+Uses createSlice() and createAsyncThunk()
+
+Minimal boilerplate and easy scalability
+
+🖥️ Live Demo - https://rtk-to-do.vercel.app/
